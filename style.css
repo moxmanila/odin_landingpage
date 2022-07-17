@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0 0;
 }
 
 
 
 .topsection {
     color: white;
-    padding-top: 50px;
+    padding: 50px 0px;
     height: 400px;
     background-color: #1F2937;
+    margin-bottom: 40px;
 }
 
     .spacer {
@@ -26,32 +28,67 @@ body {
         margin-bottom: 70px;
     }
 
+    .headerlogo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #F9FAF8;
+    }
+
 
 
     .headerlinks {
         display: flex;
+        gap: 10px;
+    }
+
+    .headerlinks a {
+        color: #F9FAF8;
+        text-decoration: none;
     }
 
 
     .hero {
         display: flex;
+    }
+
+    .hero > div {
         flex: 1;
-        justify-content: space-between;
     }
 
 
-    .herointro {
-        width: 500px;
-    }
 
-.herotext {
+.herointro h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 700;
 
 }
 
-    .heroimage {}
+.herointro h4 {
+    margin-top: -25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+
+}
+
+.herointro button {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 13px 45px; 
+    border: 0px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.heroimage {
+    background-color: lightgray;
+    height: auto;
+}
+
+
 
 
 .infosection {
@@ -61,6 +98,9 @@ body {
 }
 
 .infohead {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -74,37 +114,69 @@ body {
 }
 
 .infobox {
-    height: 100px;
-    width: 100px;
-    border: 2px blue solid;
+    height: 140px;
+    width: 140px;
+    border: 4px #3882F6 solid;
+    border-radius: 20px;
 }
 
 .boxarray p {
-    width: 100px;
+    color: #8c8f93;
+    width: 150px;
     text-align: center;
 }
 
 .quotesection {
-    background-color: whitesmoke;
-    padding: 50px 0px;
+    background-color: #E5E7EB;
+    padding: 80px 0px;
 }
 
 .spacer-quote {
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
 }
 
+.spacer-quote h1 {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.spacer-quote p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -40px;
+}
+
+
 .signupsection {
-    padding: 100px 0px;
+    padding: 130px 0px;
 }
 
 .bluebox {
-    background-color: blue;
-    height: 100px;
+    background-color: #3882F6;
+    height: 150px;
     color: white;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.bluebox > div > p {
+    color: #E5E7EB;
+}
+
+.bluebox > div > button {
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 5px 30px;
 }
 
 .footer {
