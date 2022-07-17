@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.topsection {
+    color: white;
+    padding-top: 50px;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+    .spacer {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+
+
+
+    .headerlinks {
+        display: flex;
+    }
+
+
+    .hero {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+
+    .herointro {
+        width: 500px;
+    }
+
+.herotext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+    .heroimage {}
+
+
+.infosection {
+    height: 400px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.infohead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.boxarray {
+    display: flex;
+}
+
+.boxarray {
+    justify-content: space-between;
+}
+
+.infobox {
+    height: 100px;
+    width: 100px;
+    border: 2px blue solid;
+}
+
+.boxarray p {
+    width: 100px;
+    text-align: center;
+}
+
+.quotesection {
+    background-color: whitesmoke;
+    padding: 50px 0px;
+}
+
+.spacer-quote {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.signupsection {
+    padding: 100px 0px;
+}
+
+.bluebox {
+    background-color: blue;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
